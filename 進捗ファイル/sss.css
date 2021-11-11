@@ -280,6 +280,22 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 10px 0px;
+  font-weight: 900;
   color: #757575;
   background-color: rgba(51, 51, 51, 0.08);
+}
+/* 中央寄せ */
+.textal{
+  text-align: center;
+    font-weight: 700;
+}
+/* 右寄せ */
+.textside{
+  text-align: right;
+  font-weight: 700;
+}
+/* 学校法人電子開発学園　北海道情報大学の調整 */
+ .texttyousei{
+  text-align: center;
+  font-weight: 900;
 }
