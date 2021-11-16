@@ -380,11 +380,17 @@ rc{
 .pain .pain-content .pain-title i
 {
     line-height: 32px;
-}.pain .pain-action
-{
-    position: relative;padding: 16px 24px;;border-top: 1px solid rgba(160,160,160,.2);
-    background-color: inherit;
-}.pain .pain-action:last-child
-{
-    border-radius: 0 0 2px 2px;
+}
+/* お知らせ */
+.boxa{
+  position: relative;
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition:         box-shadow .25s;
+  transition:         box-shadow .25s, -webkit-box-shadow .25s;
+  border-radius: 2px;;background-color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 16px;
+  border-left: solid 6px #d1c4e9;
 }
