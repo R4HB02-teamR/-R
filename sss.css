@@ -388,13 +388,11 @@ rc{
   transition: -webkit-box-shadow .25s;
   transition:         box-shadow .25s;
   transition:         box-shadow .25s, -webkit-box-shadow .25s;
-  border-radius: 2px;;background-color: #fff;
+  border-radius: 2px;;background-color: #ffffff;
   font-weight: bold;
   text-align: center;
   line-height: 16px;
-  border-left: solid 6px #d1c4e9;
-  margin: 20px 10px 20px 28px;
-  padding: 4px 20px 28px;
+  padding: 5px
 }
 /* ヘッダーのプロパティに利用 */
 header{
@@ -407,19 +405,16 @@ aside {
   /* margin: 20px 10px 20px 28px;
   padding: 4px 20px 28px; */
   border: 1px solid #000000;
+  background-color: #ffffff;
+  padding: inherit;
 }
 main {
-  width: 70%;
+  width: 72%;
   float:right;
-  /* margin: 20px 18px 20px 10px;
-  padding: 22px 20px; */
   border: 1px solid #000000;
+  background-color: #ffffff;
+  padding: inherit;
 }
-.container{
-  width: 880px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.contents{
-  width: 1280px
+body{
+  background-color: #ffffff;
 }

@@ -52,17 +52,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 
-
-
-  <!-- 折り返しタグ生成 -->
+  <!-- 折り返しタグ生成かつbodyプロパティ調整（余白けしとか） -->
   <style>
   body {
     font-family: 'Noto Sans JP', sans-serif;
+    background-color: #ffffff;
+    margin: 0px 20%;
+    padding: 0px;
+  }
+  html{
     background-color: #03a9f4;
   }
     pre {
       width: 50%;
-
       white-space: pre-wrap;
     }
 
@@ -87,28 +89,23 @@
 </head>
 
 <body>
-
-
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
 
-<div class="contents">
-<div class="container">
-
-
   <!-- ヘッダー -->
+
 <header>
   <h2>無限大キャンパスはこちら</h2>
   <h5>北海道情報大学　通信教育部　ポータルサイト</h5>
 </header>
 
   <!-- メインコンテンツ -->
-  <!-- <div class="row">
-  <div class="col s7 push-s5"> -->
 
-    <main>
+<main>
+
 <!-- メインコンテンツ（お知らせ） -->
+
 <div class="boxa">
 <a href="#!">  ⓘ【重要】新型コロナウイルスに関するお知らせ<br>
 (11/9　16:50更新)<br>
@@ -126,15 +123,14 @@
   </div>
 </div>
 
-
 <!-- メインコンテンツ（ポータルサイト新着情報） -->
+
 <div class="pain">
   <div class="pain-title">
     ポータルサイト新着情報
   </div>
 <div class="pain-content">
-  <div class="aaa">
-    最新
+  <div class="aaa">最新
     <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>20件</a>
 <!-- Dropdown Structure -->
 <ul id='dropdown1' class='dropdown-content'>
@@ -215,31 +211,19 @@
   </div>
 </div>
 </div>
-
      </main>
-  <!-- </div> -->
-
   <!-- サイドバー -->
   <!-- ここから左の一番上の部分 -->
-  <!-- <div class="col s5 pull-s7"> -->
-
-    <p class="z-depth-5">
 <aside>
     <div class="card-pan">
       <p class="a" align="center">インターネットメディア<br>授業無料体験</p>
-      <a class="waves-effec waves-ligh btna">
-        「無限大キャンパス」<br>体験はこちら
-      </a>
-    </div>
-    </p>
-
+      <a class="waves-effec waves-ligh btna">「無限大キャンパス」<br>体験はこちら</a>
+ </div>
+</p>
     <!-- ここからマイページとかのボタンの部分 -->
-
     <p class="z-depth-5">
     <div class="card-panel-a">
-
       <div class="act1">
-
         <dl>
           <a class="waves-effec waves-ligh btnb">
             <!-- <i class="material-icons">account_box</i> -->
@@ -263,14 +247,9 @@
       </div>
     </div>
     </p>
-
     <!-- ここからポータルメニューの部分 -->
-
-
     <h5 align="left">
-      <div class="moji">
-
-        ポータルメニュー</div>
+      <div class="moji">ポータルメニュー</div>
     </h5>
     <p class="z-depth-5">
     <div class="listl">
@@ -283,13 +262,8 @@
         <a href="#!" class="listl-siro" align="left">講義関連</a>
         <a href="#!" class="listl-sironasi" align="left">＞＞印刷授業</a>
         <a href="#!" class="listl-sironasi" align="left">＞＞面接授業</a>
-
         <a href="#!" class="listl-sironasi" align="left">＞＞IM授業</a>
         <a href="#!" class="listl-sironasi" align="left">＞＞卒業論文</a>
-
-
-
-
         <a href="#!" class="listl-sironasi" align="left">＞＞科目試験</a>
         <a href="#!" class="listl-sironasi" align="left">＞＞レポート講評</a>
         <a href="#!" class="listl-siro" align="left">障害情報</a>
@@ -303,13 +277,9 @@
         <a href="#!" class="listl-siro" align="left">聴講のご案内</a>
       </div>
     </div>
-    </p>
-
     <!-- ここからリンクリストの部分 -->
-    <p class="z-depth-5">
     <div class="card-panel">
       <blockquote>
-
         <font size="3">
           <span class="card-title">
             リンクリスト
@@ -318,7 +288,6 @@
         <br>
         <font size="2">
           <div class="card-content">大学関連</div>
-
         </font>
         <br>
         <div class="card-action">
@@ -336,27 +305,18 @@
                 <pre>教育免許状の有効期間 確認ツール（文部科学省提供）</pre>
             </dd>
           </dl>
-
-
         </div>
-
-
       </blockquote>
-
     </div>
-    </p>
-
   </div>
-    </aside>
-<!-- containerの終了 -->
-</div>
-<!-- </div> -->
+</aside>
     <!-- ここからフッター -->
-    <footer class="pagea-footer">
 
+    <footer class="pagea-footer">
 
       <div class="texttyousei">
         <font size="+1">
+          <br>
           <b>学校法人電子開発学園　北海道情報大学 </b><br>
         </font>
       </div>
@@ -391,8 +351,6 @@
 
       </div>
     </footer>
-        <!-- contentsの終了 -->
-      </div>
 </body>
 
 </html>
