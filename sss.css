@@ -396,24 +396,21 @@ rc{
 }
 /* ヘッダーのプロパティに利用 */
 header{
-
+  background-color: #ffffff;
+  padding: 5px;
+  color: #29b6f6;
 }
 /* 全体のプロパティ */
 aside {
   width: 28%;
   float:left;
-  /* margin: 20px 10px 20px 28px;
-  padding: 4px 20px 28px; */
-  border: 1px solid #000000;
   background-color: #ffffff;
   padding: inherit;
 }
 main {
   width: 72%;
   float:right;
-  border: 1px solid #000000;
   background-color: #ffffff;
-  padding: inherit;
 }
 body{
   background-color: #ffffff;
