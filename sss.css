@@ -282,6 +282,7 @@
   padding: 10px 0px;
   font-weight: 900;
   color: #757575;
+  margin: 5px;
   background-color: rgba(51, 51, 51, 0.08);
 }
 /* 中央寄せ */
@@ -391,27 +392,43 @@ rc{
   border-radius: 2px;;background-color: #ffffff;
   font-weight: bold;
   text-align: center;
+  border-left: solid 6px #5bb7ae;
   line-height: 16px;
-  padding: 5px
+  padding: 5px;
 }
 /* ヘッダーのプロパティに利用 */
 header{
   background-color: #ffffff;
   padding: 5px;
   color: #29b6f6;
+  /* white-space:nowrap; */
+   vertical-align:top;
 }
 /* 全体のプロパティ */
 aside {
-  width: 28%;
+  width: 25%;
   float:left;
   background-color: #ffffff;
-  padding: inherit;
+  padding-top: 10000px;
+  margin-top: -10000px;
+
 }
 main {
   width: 72%;
   float:right;
   background-color: #ffffff;
+  /* padding-bottom: 10000px;
+
+  margin-bottom: -10000px; */
+
 }
 body{
   background-color: #ffffff;
+}
+.content{
+  /* background-color: #ff; */
+  /* padding: 5px;
+  margin: 5px; */
+  padding: 5px;
+overflow: hidden;
 }
