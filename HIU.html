@@ -57,7 +57,8 @@
   body {
     font-family: 'Noto Sans JP', sans-serif;
     background-color: #ffffff;
-    margin: 0px 20%;
+    margin: 20px 20%;
+
     /* padding: 5px; */
     display: block;
   }
@@ -99,11 +100,11 @@
 
 <header>
 
-  <h2>無限大キャンパスはこちら</h2>
+  <h3>無限大キャンパスはこちら</h3>
   <h5>北海道情報大学　通信教育部　ポータルサイト</h5>
 </header>
 
-<!-- コンテナー -->
+<!-- 親クラス -->
 <div class="content">
 
   <!-- メインコンテンツ -->
@@ -111,13 +112,17 @@
 <main>
 
 <!-- メインコンテンツ（お知らせ） -->
+<div class="z-depth-1">
 
 <div class="boxa">
 <a href="#!">  ⓘ【重要】新型コロナウイルスに関するお知らせ<br>
 (11/9　16:50更新)<br>
 ※必ずご確認ください。<br></a>
 </div>
+</div>
 <!-- カレンダー -->
+<div class="z-depth-1">
+
 <div class="pain">
   <div class="pain-title">
     通信教育部カレンダー
@@ -128,9 +133,9 @@
                     name="iframe" width="100%" height="250" scrolling="no" frameborder="0">Sorry. This content use IFrame </iframe>
   </div>
 </div>
-
+</div>
 <!-- メインコンテンツ（ポータルサイト新着情報） -->
-
+<div class="z-depth-1">
 <div class="pain">
   <div class="pain-title">
     ポータルサイト新着情報
@@ -172,9 +177,9 @@
   </div>
 </div>
 </div>
-
+</div>
 <!-- メインコンテンツ（ダウンロード新着情報） -->
-
+<div class="z-depth-1">
 <div class="pain">
   <div class="pain-title">
     ダウンロード新着情報
@@ -218,10 +223,12 @@
   </div>
 </div>
 </div>
+</div>
      </main>
   <!-- サイドバー -->
   <!-- ここから左の一番上の部分 -->
 <aside>
+  <div class="z-depth-1">
     <div class="card-pan">
       <p class="a" align="center">インターネットメディア<br>授業無料体験</p>
       <a class="waves-effec waves-ligh btna">「無限大キャンパス」<br>体験はこちら</a>
@@ -284,7 +291,9 @@
         <a href="#!" class="listl-siro" align="left">聴講のご案内</a>
       </div>
     </div>
+  </div>
     <!-- ここからリンクリストの部分 -->
+    <div class="z-depth-1">
     <div class="card-panel">
       <blockquote>
         <font size="3">
@@ -316,8 +325,9 @@
       </blockquote>
     </div>
   </div>
+</div>
 </aside>
-<!-- コンテナー -->
+<!-- 親クラス終了-->
 </div>
     <!-- ここからフッター -->
 
