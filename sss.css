@@ -382,6 +382,7 @@ main {
 }
 body{
   background-color: #ffffff;
+  padding:10px;
 }
 .content{
   /* background-color: #ff; */
