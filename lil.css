@@ -1,0 +1,15 @@
+ra{
+  line-height: 1.0rem;
+  color: #000000;
+  text-align: left;
+  font-size: 0.5rem;
+}
+rc{
+  line-height: 1.0rem;
+  color: #00695c;
+  font-size: 0.5rem;
+}
+
+.line{
+  overflow: hidden;
+}
