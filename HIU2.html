@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-  <link rel="stylesheet" href="m_d_c.css">
+  <link rel="stylesheet" href="lil.css">
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>無限大キャンパス</title>
@@ -41,9 +41,10 @@
       });
     </script>
 <div class="z-depth-5">
-    <nav class="nav-extended">
+    <nav class="nav-extended light-blue darken-3">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo">　無限大キャンパス</a><br><a>　　北海道情報大学　通信教育部　ポータルサイト</a>
+        <h2 class="brand-logo center">無限大キャンパス</h2>
+        <!-- <br><h5>北海道情報大学　通信教育部　ポータルサイト</h5> -->
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="HIU.html">検索</a></li>
@@ -51,6 +52,7 @@
         </ul>
       </div>
       <div class="nav-content">
+        <span class="nav-title"><h5>北海道情報大学　通信教育部　ポータルサイト<h5></span>
         <ul class="tabs tabs-transparent">
           <li class="tab"><a href="#test1">Test 1</a></li>
           <li class="tab"><a class="active" href="#test2">
@@ -84,18 +86,20 @@
               授業無料体験
             </div>
             <div class="card-content">
-              「無限大キャンパス」体験はこちら
+<button class="btn btn-large"><i class="material-icons">work</i>「無限大キャンパス」体験はこちら</button>
+
+
             </div>
           </div>
         </div>
         </div>
         <div class="col s4">
           <div class="z-depth-4">
-          <div class="card">
-            <div class="card-title">
-              ⓘ【重要】新型コロナウイルスに関するお知らせ
-              (11/30　17:45更新)
-              ※必ずご確認ください。
+          <div class="card" style="padding=36px">
+            <div class="card-content">
+              <a href="#">              ⓘ【重要】新型コロナウイルスに関するお知らせ
+                            (11/30　17:45更新)
+                            ※必ずご確認ください。</a>
             </div>
           </div></div>
         </div>
@@ -116,51 +120,68 @@
             <span class="card-title">便利な機能</span>
 
             <div class="card-content">
+              <center>
 <div class="row">
                <div class="col s3">
-                 <div class="z-depth-5">
-                 <a class="waves-effect waves-light btn-large">マイページ</a>
-<br>
-                <center> マイページへの遷移はこちら</center>
-                 <br>　</div>
-               </div>
+                 <div class="z-depth-1">
+                <div class="line">
+
+                 <a class="waves-effect waves-light btn-large">
+<i class="material-icons">account_box</i>
+                   マイページ</a></div>
+                  <br>
+                  マイページへの遷移はこちら
+                  <br>　</div>
+                 </div>
               <div class="col s3">
-                <div class="z-depth-5"><center>
-                <a class="waves-effect waves-light btn-large">インターネットメディア授業</a></center>
+                <div class="z-depth-1">
+              <div class="line">
+
+                <a class="waves-effect waves-light btn-large">
+<i class="material-icons">computer</i>
+    インターネットメディア
+<!-- computer  -->
+</a>
+                </div>
                 <br>インターネットメディア授業関連
                 <br>　</div>
               </div>
-              <div class="col s3"><div class="z-depth-5"><center>
-                <a class="waves-effect waves-light btn-large">科目試験</a></center>
+              <div class="col s3"><div class="z-depth-1"><div class="line">
+                <a class="waves-effect waves-light btn-large"><i class="material-icons">note</i>科目試験</a></div>
                 <br>科目試験への遷移はこちら
                 <br>　</div>
               </div>
-              <div class="col s3"><div class="z-depth-5"><center>
-                <a class="waves-effect waves-light btn-large">ダウンロード</a></center>
+              <div class="col s3"><div class="z-depth-1"><div class="line">
+                <a class="waves-effect waves-light btn-large"><i class="material-icons">file_download</i>ダウンロード</a></div>
                 <br>ダウンロード情報はこちら
                 <br>　</div>
               </div>
-              <div class="col s3"><div class="z-depth-5">
-                <a class="waves-effect waves-light btn-large">HIU通信</a>
+</div>
+<div class="row">
+
+              <div class="col s3"><div class="z-depth-1"><div class="line">
+                <a class="waves-effect waves-light btn-large"><i class="material-icons">local_library</i>HIU通信</a></div>
+                <!--  -->
                 <br>HIU通信に関する事柄
                 <br>　</div>
               </div>
-              <div class="col s3"><div class="z-depth-5">
-                <a class="waves-effect waves-light btn-large">カレンダー</a>
+              <div class="col s3"><div class="z-depth-1"><div class="line">
+                <a class="waves-effect waves-light btn-large"><i class="material-icons">event</i>カレンダー</a></div>
                 <br>カレンダーへ
                 <br>　</div>
               </div>
-              <div class="col s3"><div class="z-depth-3">
-                <a class="waves-effect waves-light btn-large">お問い合わせ</a>
+              <div class="col s3"><div class="z-depth-1"><div class="line">
+                <!-- contact_mail -->
+                <a class="waves-effect waves-light btn-large"><i class="material-icons">help</i>お問い合わせ</a></div>
                 <br>お問い合わせ
                 <br>　</div>
               </div>
-              <div class="col s3"><div class="z-depth-5">
-                <a class="waves-effect waves-light btn-large">パスワードを忘れました</a>
+              <div class="col s3"><div class="z-depth-1"><div class="line">
+                <a class="waves-effect waves-light btn-large"><i class="material-icons">change_history</i>パスワードを忘れました</a></div>
                 <br>パスワードを忘れた場合はこちら
                 <br>　</div>
               </div>
-</div>
+</div></center>
             </div>
           </div></div>
         </div>
@@ -178,8 +199,10 @@
 <div class="col s8">
 
       <div class="card">
+        <div class="card-title">
+          ポータルメニュー一覧はこちら
+        </div>
 
-        ポータルメニュー一覧はこちら
         <ul id="slide-out" class="sidenav">
 
           <p>ポータルメニュー</p>
@@ -465,7 +488,7 @@
 
 
   <!-- footer -->
-  <footer class="page-footer">
+  <footer class="page-footer light-blue darken-3">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
