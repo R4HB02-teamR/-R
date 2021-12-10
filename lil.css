@@ -1,15 +1,25 @@
-ra{
+ra {
   line-height: 1.0rem;
   color: #000000;
   text-align: left;
   font-size: 0.5rem;
 }
-rc{
+
+rc {
   line-height: 1.0rem;
   color: #00695c;
   font-size: 0.5rem;
 }
 
-.line{
+.line {
   overflow: hidden;
+}
+.material-icons{
+  vertical-align:middle;
+}
+.overflow-wrap .nomal{
+  overflow-wrap:nomal;
+}
+body{
+  text-align: center;
 }
