@@ -1,0 +1,116 @@
+ra {
+  line-height: 1.0rem;
+  color: #000000;
+  text-align: left;
+  font-size: 0.5rem;
+}
+
+rc {
+  line-height: 1.0rem;
+  color: #00695c;
+  font-size: 0.5rem;
+}
+
+.line {
+  overflow: hidden;
+}
+
+.material-icons {
+  vertical-align: middle;
+}
+
+.overflow-wrap .nomal {
+  overflow-wrap: nomal;
+}
+.lll-panel{
+  margin: .5rem 0 1rem 0;
+  padding: 24px;
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.lll {
+  position: relative;
+  margin: .5rem 0 1rem 0;
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  border-radius: 2px;
+  ;
+  background-color: #fff;
+}
+.lll-title{
+  font-size: 24px;
+  font-weight: 300;
+  cursor: pointer;
+  line-height: 32px;
+  display: block;
+  margin-bottom: 8px;
+}
+/* cardの研究 */
+.card-panel {
+  margin: .5rem 0 1rem 0;
+  padding: 24px;
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.card {
+  position: relative;
+  margin: .5rem 0 1rem 0;
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  border-radius: 2px;
+  ;
+  background-color: #fff;
+}
+
+/* カードタイトル */
+.card .card-title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.card .card-title.activator {
+  cursor: pointer;
+}
+
+.card .card-image .card-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  padding: 24px;
+  ;
+  color: #fff;
+}
+
+/* コンテント */
+.card .card-content {
+  padding: 24px;
+  border-radius: 0 0 2px 2px;
+}
+
+.card .card-content p {
+  margin: 0;
+}
+
+.card .card-content .card-title {
+  line-height: 32px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.card .card-content .card-title i {
+  line-height: 32px;
+}
