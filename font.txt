@@ -1,0 +1,16 @@
+
+
+microsoft:
+fontFamily: 'Monaco, Menlo, Consolas'
+apple:
+San Francisco
+New York fonts
+
+google:
+Robot
+Noto Sans Japanese
+
+
+
+
+
